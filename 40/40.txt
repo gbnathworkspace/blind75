@@ -1,0 +1,72 @@
+## Problem 40: Merge K Sorted Lists
+
+
+
+Hard
+
+Linked List
+
+
+
+[Open on LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/?utm_source=chatgpt.com)
+
+Problem statement
+
+You are given an array of `k` linked lists, each sorted in ascending order.
+
+Merge all the linked lists into one sorted linked list and return its head.
+
+Example 1
+
+```
+Input:
+lists = [[1,4,5],[1,3,4],[2,6]]
+
+Output:
+[1,1,2,3,4,4,5,6]
+```
+
+Example 2
+
+```
+Input:
+lists = []
+
+Output:
+[]
+```
+
+Example 3
+
+```
+Input:
+lists = [[]]
+
+Output:
+[]
+```
+
+### Your task
+
+Implement:
+
+```
+ListNode* mergeKLists(vector<ListNode*>& lists)
+```
+
+### Constraints
+
+- `k == lists.length`
+- `0 <= k <= 10^4`
+- Each linked list is sorted in ascending order.
+- Total number of nodes across all lists is at most \\(10^4\\).
+
+### Think about these approaches
+
+1. Merge lists one by one.
+2. Divide and conquer.
+3. Min Heap / Priority Queue.
+
+Your challenge: Try solving it using a Min Heap.
+
+What is the time complexity you expect?
